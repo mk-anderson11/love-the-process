@@ -1,0 +1,35 @@
+---
+title: "Instrument Manifolds and dP Measurement"
+slug: "instrumentation-manifolds"
+module: "equipment"
+submodule: "equip-valves"
+type: "article"
+order: 910
+---
+
+Instrumentation manifolds are important. They're also underappreciated. Most refineries and large process plants have hundreds or thousands of pressure transmitters, and nearly all of them are connected to an instrumentation manifold. Understanding what that manifold does, and what happens when it doesn't, makes you a better troubleshooter.
+
+## The Problem Without a Manifold
+
+This article focuses on differential pressure (dP) transmitters. A dP transmitter has two connections to the process, typically called the high-side and low-side. The transmitted dP is the high-side pressure minus the low-side. The lines that connect to process are called impulse lines.
+
+Imagine a dP transmitter connected directly to impulse lines with no isolation. If the transmitter fails and needs replacing, you have no way to isolate it from the process, meaning you'd have to shut down to do the work. That's a significant problem in a facility where transmitters number in the thousands.
+
+## What a Manifold Provides
+
+An instrumentation manifold solves this by providing block valves, sometimes called root valves, that isolate the transmitter from the process. Crucially, multiple valves are cast into a single block. This consolidation minimizes the number of potential leak points and makes the assembly simpler to install and maintain.
+
+For a dP transmitter, the typical choice is a 3-valve manifold. There is one block valve for each impulse line and an equalizing valve used for calibration. When the equalizing valve is open and both block valves are closed, the transmitted dP should read zero, a quick check for calibration. Most setups also include a bleed valve for depressuring after the block valves are closed.
+
+The practical benefits are significant: you can work on and calibrate the transmitter in-place without breaking flanges, and the single-block design reduces leak risk compared to assembling the same valves individually.
+
+<figure>
+  <img src="/images/instrumentation-manifolds.jpeg" alt="3-Valve Instrumentation Manifold" />
+  <figcaption>A typical 3-valve instrumentation manifold.</figcaption>
+</figure>
+
+## The One Drawback: Plugged Block Valves
+
+The main failure mode worth knowing is a plugged block valve. A plugged root valve will make your dP reading inaccurate, and this is especially problematic because dP is the most common form of flow measurement in a refinery. A plugged valve can be difficult to identify at first because the symptom looks like a process change rather than an instrument problem.
+
+This is why it pays to understand exactly how your measurements are made. When a flow reading looks wrong, one of the first questions to ask is whether the block valves on the instrument manifold are clear. Healthy skepticism about your instrumentation is a core troubleshooting skill.

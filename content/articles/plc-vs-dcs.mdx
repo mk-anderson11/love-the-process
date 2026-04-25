@@ -1,0 +1,27 @@
+---
+title: "PLC vs. DCS: Control System Basics"
+slug: "plc-vs-dcs"
+module: "equipment"
+submodule: "equip-electrical"
+type: "article"
+order: 830
+---
+
+Two terms that come up often in refinery control systems are PLC and DCS. They are related but not the same, and it is worth understanding the distinction.
+
+## PLC: Programmable Logic Controller
+
+A PLC is a computer designed for industrial process control. It has inputs and outputs, a CPU, and is programmed to respond to signals from the field, things like valve positions, motor states, and sensor readings. PLCs are well suited for discrete, stand-alone applications. Each PLC is typically programmed and operated independently.
+
+## DCS: Distributed Control System
+
+A DCS is designed to control large, continuous processes like an oil refinery or chemical plant. It also uses controllers with CPUs and I/O, but the key difference is integration. In a DCS, all controllers are networked together and share a common tag database. This makes it practical to manage thousands of control loops across an entire facility from a central operator interface.
+
+## The Key Difference
+
+Think of a PLC as a stand-alone unit and a DCS as a coordinated system. A PLC is appropriate for a single machine or a small process. A DCS is built for a facility where hundreds of controllers need to communicate with each other, with third-party PLCs, and directly with field instruments.
+
+<figure>
+  <img src="/images/plc-vs-dcs.jpeg" alt="ABB DCS controller module" />
+  <figcaption>CPU module of an ABB DCS controller.</figcaption>
+</figure>

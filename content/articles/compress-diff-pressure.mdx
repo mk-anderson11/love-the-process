@@ -1,0 +1,27 @@
+---
+title: "Centrifugal Compressor dP: Two Independent Factors"
+slug: "compress-diff-pressure"
+module: "equipment"
+submodule: "equip-rotating"
+type: "article"
+order: 720
+---
+
+To predict the differential pressure of a centrifugal compressor, you need two things: the polytropic feet of head and the vapor density. Differential pressure is their product. Each one is determined independently.
+
+## Polytropic Head
+
+Polytropic feet of head is calculated from the mechanical characteristics of the compressor: the number of wheels, the diameter of the wheels, and the rotor speed. These are fixed by the machine design. Polytropic head tells you how much energy the compressor adds to the gas, but it does not tell you the differential pressure on its own.
+
+## The Role of Vapor Density
+
+To get from polytropic head to differential pressure, you also need gas density. Vapor density and polytropic head are independent, changing the vapor density does not change the polytropic head, and the reverse is also true. This distinction matters when the gas composition or suction conditions change and you need to predict how the compressor will respond.
+
+<figure>
+  <img src="/images/compress-diff-pressure.jpeg" alt="Centrifugal compressor differential pressure diagram" />
+  <figcaption>Centrifugal compressor differential pressure: polytropic head and vapor density.</figcaption>
+</figure>
+
+## References
+
+Norman Liberman, A Working Guide to Process Equipment
