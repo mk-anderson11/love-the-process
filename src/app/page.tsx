@@ -116,9 +116,8 @@ export default function Home() {
             <span className="hero-eyebrow-text">Oil Refinery Education, Plain and Simple</span>
           </div>
           <h1 className="hero-headline">
-            LOVE<br />
-            THE<br />
-            <span className="italic-fire">Process</span>
+            <span className="italic-fire">Crude</span><br />
+            ACADEMY
           </h1>
           <p className="hero-sub">
             A plain-English introduction to oil refineries. No prior experience
@@ -457,7 +456,7 @@ export default function Home() {
         <div className="cta-inner">
           <h2 className="cta-title reveal">
             READY TO<br />
-            <span className="fire-line">LOVE</span>
+            <span className="fire-line">LEARN</span>
             THE PROCESS
           </h2>
           <p className="cta-desc reveal d1">

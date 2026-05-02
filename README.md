@@ -1,6 +1,6 @@
-# Love The Process: Next.js + Supabase
+# Crude Academy: Next.js + Supabase
 
-The course-platform rebuild of the Love The Process refinery-education site.
+The course-platform rebuild of the Crude Academy refinery-education site.
 Next.js 14 (App Router, TypeScript, Tailwind) + Supabase auth/database,
 deployed on Vercel.
 

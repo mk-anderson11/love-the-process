@@ -19,7 +19,7 @@ export async function Nav() {
         href="/"
         className="font-display text-[15px] font-black uppercase tracking-[0.28em] text-ink no-underline"
       >
-        Love<em className="not-italic text-fire"> The </em>Process
+        <span className="text-fire">Crude</span> Academy
       </Link>
 
       <ul className="hidden items-center gap-9 md:flex">

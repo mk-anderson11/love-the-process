@@ -5,7 +5,7 @@ export function Footer() {
       style={{ background: "var(--dark)" }}
     >
       <div className="font-display text-[14px] font-black uppercase tracking-[0.28em] text-white">
-        Love<em className="not-italic text-fire2"> The </em>Process
+        <span className="text-fire2">Crude</span> Academy
       </div>
       <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-white/30">
         Made with love, Claude, and Dr. Pepper

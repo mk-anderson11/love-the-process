@@ -27,7 +27,7 @@ const courierPrime = Courier_Prime({
 });
 
 export const metadata: Metadata = {
-  title: "Love The Process: Oil Refinery Education",
+  title: "Crude Academy: Oil Refinery Education",
   description:
     "Plain-English education on oil refinery operations and technology.",
 };

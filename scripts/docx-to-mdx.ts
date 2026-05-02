@@ -1,5 +1,5 @@
 /**
- * DOCX → MDX content porter for Love The Process.
+ * DOCX → MDX content porter for Crude Academy.
  *
  * Reads every `.docx` under ../Content/<folder>/ and emits a matching
  * `content/articles/<slug>.mdx` file with frontmatter.

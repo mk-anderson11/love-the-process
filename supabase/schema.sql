@@ -1,4 +1,4 @@
--- Love The Process: Supabase schema
+-- Crude Academy: Supabase schema
 -- Run this in the Supabase SQL Editor (or via `supabase db push`).
 --
 -- Tables:
