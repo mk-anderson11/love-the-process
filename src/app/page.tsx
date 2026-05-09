@@ -456,8 +456,7 @@ export default function Home() {
         <div className="cta-inner">
           <h2 className="cta-title reveal">
             READY TO<br />
-            <span className="fire-line">LEARN</span>
-            THE PROCESS
+            <span className="fire-line">LEARN?</span>
           </h2>
           <p className="cta-desc reveal d1">
             Three modules. An introduction to refining technology.<br />
