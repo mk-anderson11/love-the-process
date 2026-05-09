@@ -11,15 +11,15 @@ export async function Nav() {
     <nav
       className="fixed inset-x-0 top-0 z-[200]"
       style={{
-        background: "var(--paper)",
+        background: "#F3EDE1",
         paddingTop: "env(safe-area-inset-top)",
       }}
     >
       <div
-        className="flex h-[66px] items-center justify-between border-b px-12 backdrop-blur-[14px]"
+        className="flex h-[66px] items-center justify-between border-b px-12"
         style={{
-          background: "rgba(243, 237, 225, 0.92)",
-          borderColor: "var(--border)",
+          background: "#F3EDE1",
+          borderColor: "rgba(30, 24, 14, 0.10)",
         }}
       >
         <Link
