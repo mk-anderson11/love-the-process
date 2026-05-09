@@ -9,10 +9,11 @@ export async function Nav() {
 
   return (
     <nav
-      className="fixed inset-x-0 top-0 z-[200] flex h-[66px] items-center justify-between border-b px-12 backdrop-blur-[14px]"
+      className="fixed inset-x-0 top-0 z-[200] flex min-h-[66px] items-center justify-between border-b px-12 backdrop-blur-[14px]"
       style={{
         background: "rgba(243, 237, 225, 0.92)",
         borderColor: "var(--border)",
+        paddingTop: "env(safe-area-inset-top)",
       }}
     >
       <Link

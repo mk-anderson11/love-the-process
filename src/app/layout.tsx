@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Barlow, Barlow_Condensed, Courier_Prime } from "next/font/google";
 import "./globals.css";
 import { Nav } from "@/components/Nav";
@@ -32,6 +32,12 @@ export const metadata: Metadata = {
     "Plain-English education on oil refinery operations and technology.",
 };
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -44,7 +50,14 @@ export default function RootLayout({
     >
       <body>
         <Nav />
-        <main className="min-h-screen pt-[66px]">{children}</main>
+        <main
+          className="min-h-screen"
+          style={{
+            paddingTop: "calc(66px + env(safe-area-inset-top))",
+          }}
+        >
+          {children}
+        </main>
         <Footer />
       </body>
     </html>
