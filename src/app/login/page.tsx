@@ -6,7 +6,7 @@ import { AuthForm } from "./AuthForm";
 export default async function LoginPage({
   searchParams,
 }: {
-  searchParams: Promise<{ next?: string; error?: string }>;
+  searchParams: Promise<{ next?: string; error?: string; notice?: string }>;
 }) {
   const sp = await searchParams;
   const next = sp.next ?? "/dashboard";
@@ -41,12 +41,24 @@ export default async function LoginPage({
           Sign In
         </h1>
 
+        {sp.notice && (
+          <p className="mb-6 border-l-2 border-fire bg-paper2 px-3 py-3 text-sm text-ink">
+            {sp.notice}
+          </p>
+        )}
+
         <AuthForm
           action={login}
           submitLabel="Sign In"
           next={next}
           error={sp.error}
         />
+
+        <p className="mt-3 text-sm text-ink2">
+          <Link href="/forgot-password" className="text-fire underline">
+            Forgot password?
+          </Link>
+        </p>
 
         <p className="mt-6 text-sm text-ink2">
           New here?{" "}
