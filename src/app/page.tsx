@@ -356,10 +356,10 @@ export default function Home() {
       <section id="audience">
         <div className="sec-label">
           <div className="sec-label-bar" />
-          <span className="sec-label-text">Who It&apos;s For</span>
+          <span className="sec-label-text">The Audience</span>
         </div>
         <h2 className="sec-title reveal" style={{ marginTop: 18 }}>
-          BUILT FOR<br />THOSE WHO<br />WANT MORE
+          BUILT FOR<br />LEARNERS
         </h2>
 
         <div className="audience-grid">
