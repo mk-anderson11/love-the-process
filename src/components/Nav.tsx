@@ -11,7 +11,7 @@ export async function Nav() {
     <nav
       className="fixed inset-x-0 top-0 z-[200]"
       style={{
-        background: "#F3EDE1",
+        background: "#FF0000",
         paddingTop: "env(safe-area-inset-top)",
       }}
     >
