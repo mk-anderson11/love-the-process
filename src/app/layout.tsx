@@ -49,7 +49,20 @@ export default function RootLayout({
       lang="en"
       className={`${barlow.variable} ${barlowCondensed.variable} ${courierPrime.variable}`}
     >
+      <head>
+        {/* Explicit meta tags as defense in case Next.js's metadata export
+            isn't generating them as expected for iOS Safari. */}
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, viewport-fit=cover"
+        />
+        <meta name="theme-color" content="#F3EDE1" />
+      </head>
       <body>
+        {/* Hardcoded safe-area cover. Independent from the Nav so even if
+            position:fixed misbehaves for the Nav, this still pins paper to
+            the very top of the screen on notched phones. */}
+        <div className="safe-area-cover" aria-hidden="true" />
         <Nav />
         <main className="main-safe-top min-h-screen">
           {children}

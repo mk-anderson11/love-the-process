@@ -42,12 +42,26 @@ body {
 .main-safe-top {
   padding-top: calc(66px + env(safe-area-inset-top));
 }
+.safe-area-cover {
+  display: none;
+}
 @media (max-width: 1024px) {
   .nav-safe-top {
     padding-top: max(env(safe-area-inset-top), 50px);
   }
   .main-safe-top {
     padding-top: calc(66px + max(env(safe-area-inset-top), 50px));
+  }
+  .safe-area-cover {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: max(env(safe-area-inset-top), 50px);
+    background: #F3EDE1;
+    z-index: 250;
+    pointer-events: none;
   }
 }
 
