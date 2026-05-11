@@ -9,10 +9,9 @@ export async function Nav() {
 
   return (
     <nav
-      className="fixed inset-x-0 top-0 z-[200]"
+      className="nav-safe-top fixed inset-x-0 top-0 z-[200]"
       style={{
-        background: "#FF0000",
-        paddingTop: "env(safe-area-inset-top)",
+        background: "#F3EDE1",
       }}
     >
       <div

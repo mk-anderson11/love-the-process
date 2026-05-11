@@ -51,12 +51,7 @@ export default function RootLayout({
     >
       <body>
         <Nav />
-        <main
-          className="min-h-screen"
-          style={{
-            paddingTop: "calc(66px + env(safe-area-inset-top))",
-          }}
-        >
+        <main className="main-safe-top min-h-screen">
           {children}
         </main>
         <Footer />

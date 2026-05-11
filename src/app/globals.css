@@ -29,7 +29,26 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: var(--font-body), system-ui, sans-serif;
-  overflow-x: hidden;
+  overflow-x: clip;
+}
+
+/* Mobile safe-area cover for the fixed Nav. On iOS where
+   env(safe-area-inset-top) is non-zero we use that exact value; otherwise
+   we fall back to 50px so notched phones always get a solid paper bar
+   above the visible nav row regardless of viewport-fit/env quirks. */
+.nav-safe-top {
+  padding-top: env(safe-area-inset-top);
+}
+.main-safe-top {
+  padding-top: calc(66px + env(safe-area-inset-top));
+}
+@media (max-width: 1024px) {
+  .nav-safe-top {
+    padding-top: max(env(safe-area-inset-top), 50px);
+  }
+  .main-safe-top {
+    padding-top: calc(66px + max(env(safe-area-inset-top), 50px));
+  }
 }
 
 /* Grain overlay matching current site */
