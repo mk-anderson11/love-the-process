@@ -59,7 +59,7 @@ body {
     left: 0;
     right: 0;
     height: max(env(safe-area-inset-top), 50px);
-    background: #F3EDE1;
+    background: #FF0000;
     z-index: 250;
     pointer-events: none;
   }
