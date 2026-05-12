@@ -59,10 +59,6 @@ export default function RootLayout({
         <meta name="theme-color" content="#F3EDE1" />
       </head>
       <body>
-        {/* Hardcoded safe-area cover. Independent from the Nav so even if
-            position:fixed misbehaves for the Nav, this still pins paper to
-            the very top of the screen on notched phones. */}
-        <div className="safe-area-cover" aria-hidden="true" />
         <Nav />
         <main className="main-safe-top min-h-screen">
           {children}

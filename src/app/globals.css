@@ -45,26 +45,14 @@ body {
 .safe-area-cover {
   display: none;
 }
+/* Push body's flow content down past the iOS safe area, so the safe-area
+   zone shows body's paper background instead of main's content scrolling
+   through. Position:fixed elements (Nav) are anchored to the visual
+   viewport and unaffected by body padding, so they sit correctly below
+   the safe area. */
 @media (max-width: 1024px) {
-  .nav-safe-top {
-    padding-top: max(env(safe-area-inset-top), 50px);
-  }
-  .main-safe-top {
-    padding-top: calc(66px + max(env(safe-area-inset-top), 50px));
-  }
-  .safe-area-cover {
-    display: block;
-    position: fixed;
-    /* Negative top pulls the cover up into the iOS safe area, since Safari
-       anchors position:fixed elements to the bottom of the inset rather
-       than the actual top of the visual viewport. */
-    top: calc(0px - max(env(safe-area-inset-top), 60px));
-    left: 0;
-    right: 0;
-    height: max(env(safe-area-inset-top), 60px);
-    background: #FF0000;
-    z-index: 250;
-    pointer-events: none;
+  body {
+    padding-top: max(env(safe-area-inset-top), 60px);
   }
 }
 
