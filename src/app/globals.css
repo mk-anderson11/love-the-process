@@ -25,11 +25,23 @@
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
   background: var(--paper);
   color: var(--ink);
   font-family: var(--font-body), system-ui, sans-serif;
+  overflow: hidden;
+}
+
+main {
+  height: 100%;
+  overflow-y: auto;
   overflow-x: clip;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* Mobile safe-area cover for the fixed Nav. On iOS where
@@ -45,25 +57,21 @@ body {
 .safe-area-cover {
   display: none;
 }
-/* Sticky safe-area bar: a flow element pinned to the top of the scroll
-   container. Unlike position:fixed (which iOS Safari clips at the visual
-   viewport edge), position:sticky elements first render into the layout
-   viewport before they stick, so they MAY reach into the safe-area zone
-   on notched iPhones. Negative margin-bottom prevents the bar from
-   taking flow space and pushing other content down. */
 .ios-safe-bar {
   display: none;
 }
+/* Mobile: body becomes a non-scrolling container with safe-area padding.
+   Its paper background fills the safe-area zone permanently, since body
+   no longer scrolls. Main (inside body) is the scroll container instead,
+   so its content can never reach the layout-viewport top. */
 @media (max-width: 1024px) {
-  .ios-safe-bar {
-    display: block;
-    position: sticky;
-    top: 0;
-    height: max(env(safe-area-inset-top), 60px);
-    margin-bottom: calc(0px - max(env(safe-area-inset-top), 60px));
-    background: #FF0000;
-    z-index: 250;
-    pointer-events: none;
+  body {
+    padding-top: max(env(safe-area-inset-top), 60px);
+  }
+  main {
+    /* Compensate height for body's padding so main still fills the
+       remaining space. */
+    height: calc(100% - max(env(safe-area-inset-top), 60px));
   }
 }
 
