@@ -58,13 +58,12 @@ main {
    no longer scrolls. Main (inside body) is the scroll container instead,
    so its content can never reach the layout-viewport top. This works
    around iOS Safari's quirk of clipping position:fixed/sticky at the
-   visual viewport edge regardless of viewport-fit=cover. */
+   visual viewport edge regardless of viewport-fit=cover. Main's height
+   stays at 100% (which is relative to body's content area, already
+   excluding body's padding). */
 @media (max-width: 1024px) {
   body {
     padding-top: max(env(safe-area-inset-top), 60px);
-  }
-  main {
-    height: calc(100% - max(env(safe-area-inset-top), 60px));
   }
 }
 
