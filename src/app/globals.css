@@ -45,14 +45,25 @@ body {
 .safe-area-cover {
   display: none;
 }
-/* Push body's flow content down past the iOS safe area, so the safe-area
-   zone shows body's paper background instead of main's content scrolling
-   through. Position:fixed elements (Nav) are anchored to the visual
-   viewport and unaffected by body padding, so they sit correctly below
-   the safe area. */
+/* Sticky safe-area bar: a flow element pinned to the top of the scroll
+   container. Unlike position:fixed (which iOS Safari clips at the visual
+   viewport edge), position:sticky elements first render into the layout
+   viewport before they stick, so they MAY reach into the safe-area zone
+   on notched iPhones. Negative margin-bottom prevents the bar from
+   taking flow space and pushing other content down. */
+.ios-safe-bar {
+  display: none;
+}
 @media (max-width: 1024px) {
-  body {
-    padding-top: max(env(safe-area-inset-top), 60px);
+  .ios-safe-bar {
+    display: block;
+    position: sticky;
+    top: 0;
+    height: max(env(safe-area-inset-top), 60px);
+    margin-bottom: calc(0px - max(env(safe-area-inset-top), 60px));
+    background: #FF0000;
+    z-index: 250;
+    pointer-events: none;
   }
 }
 

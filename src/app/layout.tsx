@@ -59,6 +59,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#F3EDE1" />
       </head>
       <body>
+        <div className="ios-safe-bar" aria-hidden="true" />
         <Nav />
         <main className="main-safe-top min-h-screen">
           {children}
