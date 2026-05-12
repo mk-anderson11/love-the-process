@@ -44,33 +44,26 @@ main {
   -webkit-overflow-scrolling: touch;
 }
 
-/* Mobile safe-area cover for the fixed Nav. On iOS where
-   env(safe-area-inset-top) is non-zero we use that exact value; otherwise
-   we fall back to 50px so notched phones always get a solid paper bar
-   above the visible nav row regardless of viewport-fit/env quirks. */
+/* Padding-top values for nav and main so content sits below the fixed
+   nav row (and below any safe-area inset on devices that report one). */
 .nav-safe-top {
   padding-top: env(safe-area-inset-top);
 }
 .main-safe-top {
   padding-top: calc(66px + env(safe-area-inset-top));
 }
-.safe-area-cover {
-  display: none;
-}
-.ios-safe-bar {
-  display: none;
-}
+
 /* Mobile: body becomes a non-scrolling container with safe-area padding.
    Its paper background fills the safe-area zone permanently, since body
    no longer scrolls. Main (inside body) is the scroll container instead,
-   so its content can never reach the layout-viewport top. */
+   so its content can never reach the layout-viewport top. This works
+   around iOS Safari's quirk of clipping position:fixed/sticky at the
+   visual viewport edge regardless of viewport-fit=cover. */
 @media (max-width: 1024px) {
   body {
     padding-top: max(env(safe-area-inset-top), 60px);
   }
   main {
-    /* Compensate height for body's padding so main still fills the
-       remaining space. */
     height: calc(100% - max(env(safe-area-inset-top), 60px));
   }
 }
