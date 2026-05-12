@@ -55,10 +55,13 @@ body {
   .safe-area-cover {
     display: block;
     position: fixed;
-    top: 0;
+    /* Negative top pulls the cover up into the iOS safe area, since Safari
+       anchors position:fixed elements to the bottom of the inset rather
+       than the actual top of the visual viewport. */
+    top: calc(0px - max(env(safe-area-inset-top), 60px));
     left: 0;
     right: 0;
-    height: max(env(safe-area-inset-top), 50px);
+    height: max(env(safe-area-inset-top), 60px);
     background: #FF0000;
     z-index: 250;
     pointer-events: none;
