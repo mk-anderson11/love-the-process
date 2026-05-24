@@ -204,9 +204,9 @@ const ARTICLE_META: Record<
   Hydrotreating: {
     title: "Hydrotreating: Removing Sulfur with Hydrogen",
     module: "processes",
-    submodule: "proc-conversion",
+    submodule: "proc-hydrogen",
     type: "article",
-    order: 510,
+    order: 460,
   },
   "FCC Yields": {
     title: "FCC Yields and Hydrotreated Feed",
