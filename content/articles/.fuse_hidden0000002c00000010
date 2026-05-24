@@ -1,0 +1,28 @@
+---
+title: "Hydrogen Consumption in Oil Refineries"
+slug: "hydrogen-consumption"
+module: "processes"
+submodule: "proc-hydrogen"
+type: "article"
+order: 450
+---
+
+Refineries cannot produce transportation fuels without hydrogen.
+
+The table below summarizes the amount of hydrogen (in standard cubic feet, scf) per barrel of hydrocarbon (bbl) needed for common refinery operations. This helps give a rough estimate of hydrogen consumption. For example, a 50,000 BPD (barrel per day) gas oil hydrotreater would be expected to use about 50 MMSCFD (million scf per day) of hydrogen. [1]
+
+| Process | SCF/BBL |
+|---|---|
+| **Hydrotreating** | |
+| &nbsp;&nbsp;&nbsp;VGO (Gasoil) | 800–1200 |
+| &nbsp;&nbsp;&nbsp;Distillate | 300–800 |
+| &nbsp;&nbsp;&nbsp;Naphtha | 80–500 |
+| Aromatics Saturation | 200–500 |
+| Isomerization | 50–150 |
+| Hydrocracking | 1200–3000 |
+
+Hydrogen consumption at refineries has increased since the 1990s due to increasingly stringent transport fuel requirements, such as lower sulfur standards. Reducing the sulfur content of gasoline requires a deeper level of hydrotreating, which uses more hydrogen per barrel of feed.
+
+[1] "Handbook of Petroleum Refining Processes", 4th Ed. Meyers, Chapter 5.2
+
+*I write about oil refinery operations and technology. My goal is to write in plain English and provide an entry point to the downstream oil industry.*

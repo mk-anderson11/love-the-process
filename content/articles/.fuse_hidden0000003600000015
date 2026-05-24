@@ -1,0 +1,31 @@
+---
+title: "Instrument Manifolds and dP Measurement"
+slug: "instrumentation-manifolds"
+module: "equipment"
+submodule: "equip-valves"
+type: "article"
+order: 910
+---
+
+Article:
+
+Instrumentation manifolds are important. I think they're underappreciated.
+
+Most refineries and large process plants will have hundreds or thousands of pressure transmitters. Almost all of these pressure transmitters will be connected to an instrumentation manifold, which is connected to the process.
+
+For this post, we'll focus on differential pressure (dP) transmitters only. For dP transmitters, there are two connections to process, usually called the 'high-side' and 'low-side'. The transmitted dP is the 'high-side' pressure minus the 'low-side'. The lines that connect to process are called "impulse lines".
+
+To appreciate the benefit of an instrumentation manifold, imagine if there was a dP transmitter connected directly to impulse lines. What happens when the transmitter fails and you need to replace it? You would need to shut down the process because there is no way to isolate the transmitter.
+
+An instrumentation manifold provides block valves (sometimes called root valves) that isolate the transmitter from process. Multiple root valves are cast into a single block. This helps to minimize the potential for leaks.
+
+For a dP transmitter, the typical choice is a 3-valve manifold (as shown in image). There is one block valve for each impulse line, and an equalizing valve, which can be used for calibrating the transmitter. If the equalizing valve is open and the block valves are closed, then the transmitted dP should be zero. Most set-ups will also include a bleed valve for depressuring after the block valves are closed.
+
+Instrumentation Manifold Benefits:
+- Work on and calibrate the transmitter in-place (no need to break flanges).
+- Consolidates multiple valves into single block. Minimize leak points. Simpler to install and maintain.
+
+The one drawback worth mentioning is the potential for the block valves to plug. This will make your dP inaccurate. This is especially problematic because dP is the most common form of flow measurement. A plugged root valve can initially be tough to find.
+
+To be an effective troubleshooter, it's really important to understand exactly how data (such as differential pressure) is measured. It's beneficial to have a healthy skepticism and ask questions such as "are the block valves on the instrument manifold clear?". Be curious!!
+

@@ -1,0 +1,29 @@
+---
+title: "Centrifugal Compressor dP: Two Independent Factors"
+slug: "compress-diff-pressure"
+module: "equipment"
+submodule: "equip-rotating"
+type: "article"
+order: 720
+---
+
+Centrifugal Compressor dP
+
+How is the differential pressure of a compressor predicted? What information do you need?
+
+At minimum, you will need mechanical characteristics of the compressor such as the number of wheels, diameter of the wheels, and the rotor speed.
+
+However, this will allow for predicting the polytropic feet of head, which is not the same as the differential pressure.
+
+To predict a differential pressure, you also need gas density.
+
+Differential pressure is the product of polytropic feet of head and vapor density.
+
+✅ Vapor density and polytropic feet of head are not related.
+✅ Changing the vapor density does not change the polytropic feet of head.
+✅ The reverse is also true.
+
+Norman Liberman explains this concept in the excellent book, “A Working Guide to Process Equipment”.
+
+I made the image accompanying this post to provide a high-level explanation for compressor differential pressure.
+

@@ -1,0 +1,33 @@
+---
+title: "PLC vs. DCS: Control System Basics"
+slug: "plc-vs-dcs"
+module: "equipment"
+submodule: "equip-electrical"
+type: "article"
+order: 830
+---
+
+The PLC (Programmable Logic Controller) is the fundamental unit for industrial process control. It is a computer that has input and output.
+
+The control system in an oil refinery is called DCS (Distributed Control System).
+
+DCS also has controllers, but they are not to be confused with PLC's. I confuse them all the time. I want to stop doing this, so I'm learning more about them.
+
+From what I can tell, DCS controllers and PLC's have a lot of similarities. They both have CPU's and I/O. However, DCS is designed to control very large processes, such as an oil refinery. PLC's are not.
+
+Therefore DCS controllers have features that allow for easy interfacing with other controllers, third-party PLC's, and directly to field instruments.
+
+A PLC can be thought of as more of a stand-alone computer. It is capable of controlling a discrete process. Each PLC must be programmed individually.
+
+Another big difference, is that in a DCS system, the controllers are integrated and networked together to use the same tag database. This reinforces the concept that an individual PLC is appropriate for a small application and DCS is designed for control of a large system such as a chemical plant.
+
+I found this video helpful for explaining DCS vs PLC: [__https://lnkd.in/gGAF7t3d__](https://lnkd.in/gGAF7t3d)
+
+It's also helpful to look up different PLC's on manufacturer's websites. They typically have PDF brochures available and other useful info. Three PLC's to start with are ABB AC500, Honeywell MasterLogic, and Allen-Bradley ControlLogix.
+
+About: I write to provide snapshots of oil refinery operations and technology. My goal is to write in plain English and to provide an entry-point to the downstream oil industry.
+
+Image: CPU module 904F of the ABB DCS controller AC900F (yes it's a mouthful...hopefully I got it right).
+
+Image Credit: [__https://lnkd.in/giUVbYBJ__](https://lnkd.in/giUVbYBJ)
+

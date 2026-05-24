@@ -1,0 +1,25 @@
+---
+title: "Megger the Motor: Insulation Resistance Testing"
+slug: "megger-the-motor"
+module: "equipment"
+submodule: "equip-electrical"
+type: "article"
+order: 860
+---
+
+A megohmmeter is used to identify damaged electrical insulation.
+
+It does this by measuring electrical resistance (one mega ohm is 10^6 ohms). The measurement of resistance enables the detection of very low current flows.
+
+The primary use case in a refinery is to verify that motor insulation is intact. If there is an insulation fault, then a low current will flow (when the current should be zero).
+
+The test is to hook up one lead to the pump casing and the other to the motor windings. The megohmmeter generates a voltage and measures the resistance between the two leads.
+
+Pumps have insulation to prevent current from flowing between motor windings and motor casing. If the resistance measured by the megohmmeter is low, then there is insulation damage, and the motor needs to be replaced (or repaired depending on the size/cost of the motor).
+
+If you work in a refinery, my guess is that you will not hear the phrase “let’s use the megohmmeter to test the motor insulation!”. What you will probably hear is “let’s megger the motor”. That is how I have heard it discussed. I also had no idea what that meant until I looked it up and tried to educate myself.
+
+When you start working in a refinery, it may feel that everyone is speaking in a foreign language. That’s OK. Don’t panic. Google is surprisingly helpful. Downstream oil is a large global industry and there are a lot of learning resources. Keep going. Focus on learning one concept at-a-time.
+
+I make posts on LinkedIn and occasional YouTube videos that focus on basics of refining. Maybe you will find them helpful.
+

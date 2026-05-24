@@ -1,0 +1,35 @@
+---
+title: "Centrifugal Compressor Basics"
+slug: "video-centrifugal-compressor"
+module: "equipment"
+submodule: "equip-rotating"
+type: "video"
+youtube: "e0GrlF8jcGw"
+order: 710
+---
+
+Oil refineries use centrifugal compressors to move large amounts of gas. Trips are used to automatically shut down the compressor and prevent damage. Three common centrifugal compressor trips are:
+
+1)       High Vibration
+Vibration indicates an imbalance, which could cause the compressor to fail. It’s typical to have multiple probes for thrust and radial vibrations.
+
+2)       Low Lube Oil Pressure
+Running a compressor without lube oil is just like running a car without oil. Metal-on-metal contact for parts that are designed to run with lube oil will cause rapid failure. Generally, there is one or more pressure sensors on the lube oil system. The compressor will trip on low lube oil pressure.
+
+3)       Suction Knockout Drum High Level (see diagram)
+This trip prevents liquid from entering the compressor, which would cause serious equipment damage. Compressors are very good at compressing gas. They are very bad at compressing liquid. This is because liquids cannot be compressed. The assumption of liquids as “incompressible” is fundamental in fluid dynamics.
+
+You may be thinking, why is this useful?
+
+If you work in an oil refinery, you will experience compressor trips. It’s helpful to have a starting point of what are the potential causes of the trip. This is true even if you are not directly responsible for the operation of the unit.
+
+Instead of hearing about a trip and thinking “I wonder what caused it”?
+
+You can think to yourself “I wonder if it was high vibration, an issue with the lube oil system, or liquid building up in the suction knockout drum”?
+
+There are many other kinds of trips. Please add more in the comments.
+
+If you have access to the design documents for a compressor, I highly recommend reviewing it and understanding how the trips were configured. Understanding why trips exist leads to a deeper understanding of the process.
+
+For the diagram, I choose to represent the compressor coupled to a steam turbine. Not all compressors are coupled to steam turbines. It is more common to see a compressor coupled to an electric motor. However, if you work in process industries, you will see both.
+

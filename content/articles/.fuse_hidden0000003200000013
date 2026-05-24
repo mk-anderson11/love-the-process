@@ -1,0 +1,40 @@
+---
+title: "Hydrotreating: Removing Sulfur with Hydrogen"
+slug: "hydrotreating"
+module: "processes"
+submodule: "proc-hydrogen"
+type: "article"
+order: 460
+---
+
+Hydrotreating is a refinery process that removes objectionable materials such as sulfur, nitrogen, and metals. The process also saturates olefins and aromatics.
+
+Meeting modern gasoline and diesel standards would not be possible without Hydrotreating.
+
+A simple way to think of Hydrotreating is swapping the contaminants (such as sulfur) with hydrogen.
+
+You can divide the types of hydrotreating technology roughly by the type of feed. Three categories of feed are naphtha, distillate, and gas oil.
+
+Of the three feeds, naphtha is the lightest and gas oil is the heaviest. Heavier hydrocarbons have higher boiling points.
+
+As the hydrotreater feed gets heavier, you can generally expect:
+1️⃣ More hydrogen consumption per barrel of feed
+2️⃣ Higher reactor temperature
+3️⃣ Higher reactor pressure
+
+In “Handbook of Petroleum Refining Processes”, the following is provided as a rough estimate for hydrogen consumption (on a Standard Cubic Foot per Barrel of feed basis) for different types of hydrotreating:
+✔️ Naphtha: 40-500 SCF/BBL
+✔️ Distillate: 130-580 SCF/BBL
+✔️ Gas Oil: 250-760 SCF/BBL
+
+Larger molecules, like in gas oil, can have some species of sulfur that are difficult to remove, such as Dibenzothiophene.
+
+You will hear the phrase “sterically hindered” thrown around to describe these types of molecules. This means that the difficulty in removing is mainly due to the Sulfur atom being well protected by surrounding parts of the molecule. It is a difficult location to physically access for the hydrogenation reaction to occur.
+
+The diagram accompanying this post represents the hydrotreating process flow. Most hydrotreating units have similar arrangements:
+☑️ The fresh feed is heated and combined with hydrogen before contacting catalyst in a reactor.
+☑️ The gas and liquid streams are separated.
+☑️ Hydrogen is recycled while the liquid stream goes through further separation, usually in a trayed column called a “Stripper”.
+
+About: I write about oil refinery operations and technology. My goal is to write in plain English and to provide an entry-point to the downstream oil industry.
+

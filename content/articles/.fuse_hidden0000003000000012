@@ -1,0 +1,34 @@
+---
+title: "Why SMR Hydrogen Needs Purification"
+slug: "hydrogen-psa"
+module: "processes"
+submodule: "proc-hydrogen"
+type: "article"
+order: 440
+---
+
+Hydrogen produced by steam methane reforming (SMR), without purification, is essentially useless for refineries.
+
+This is because the product of SMR, called “Syngas”, is a mixture of hydrogen, carbon monoxide\*, carbon dioxide, and small quantities of other contaminants.
+
+Hydrogen is used by refineries primarily in hydrotreating, isomerization, and hydrocracking. Each process uses catalyst.
+
+Carbon oxides are extremely efficient catalyst poisons. Most impressively, COx (carbon oxides) concentration of ~20 PPMv can cause accelerated poison for some catalysts. [1]
+
+Pressure Swing Adsorption (PSA) takes advantage of the size of the hydrogen molecule (smallest in the universe) to purify syngas.
+
+For industrial PSA applications, different adsorbents are layered within multiple “beds”. Each adsorbent is designed to remove one or more impurities.
+
+Hydrogen purities of >99.9% are typical for PSA. [2]
+
+\*After steam methane reforming, most hydrogen production facilities utilize either High Temperature (HT) or Low Temperature (LT) water-gas shift reactions upstream of the PSA to convert CO to CO2 and increase hydrogen production.
+
+About: I write to teach basics of oil refinery operations and technology. My goal is to write in plain English and to provide an entry-point to the downstream oil industry.
+
+[__hashtag\#Refinery__](https://www.linkedin.com/search/results/all/?keywords=%23refinery&origin=HASH_TAG_FROM_FEED) [__hashtag\#Hydrogen__](https://www.linkedin.com/search/results/all/?keywords=%23hydrogen&origin=HASH_TAG_FROM_FEED) [__hashtag\#ChemicalEngineering__](https://www.linkedin.com/search/results/all/?keywords=%23chemicalengineering&origin=HASH_TAG_FROM_FEED) [__hashtag\#OilGas__](https://www.linkedin.com/search/results/all/?keywords=%23oilgas&origin=HASH_TAG_FROM_FEED)
+
+[1] “Handbook of Petroleum Refining Processes”, 4th Ed. Meyers, Chpt 5.2.
+[2] [__https://lnkd.in/ggyegseZ__](https://lnkd.in/ggyegseZ)
+
+Image: AirProducts[.]com
+

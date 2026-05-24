@@ -1,0 +1,35 @@
+---
+title: "Fuses, Circuit Breakers, and Fault Protection"
+slug: "circuit-breakers"
+module: "equipment"
+submodule: "equip-electrical"
+type: "article"
+order: 810
+---
+
+Article:
+
+Fuses and circuit breakers have the same purpose: protect electrical equipment from damage by interrupting the electrical circuit during overloads and short circuits.
+
+Overload: Too much current
+
+Short Circuit: Current flows in shorter (unintended) path with no resistance
+
+The fuse was first. Thomas Edison invented it to solve the problem of protection for his incandescent light bulbs. The basic operating principle is that internal elements melt when a design current is exceeded. The melting results in the electrical circuit being interrupted.
+
+The next big advance in electrical protection happened about 40 years later, in 1923, when the circuit breaker was invented by Hugo Stotz in Mannheim, Germany. The defining characteristic of the circuit breaker is that it can be reset when the internal components cool.
+
+I highly recommend the article at “RealPars” on how circuit breakers work (Link in the Comments).
+
+My perspective as a chemical engineer working in a refinery, is that it is very helpful for troubleshooting to have a basic understanding.
+
+When you are discussing a blown fuse as the cause of your equipment not functioning, it can be helpful to visualize the fuse elements melting at 2000 degC and interrupting the circuit. Then you can think, ‘better the fuse than the panel’.
+
+The decision between a fuse and a circuit breaker is an interesting analysis:
+-         Fuses are generally cheaper and smaller (4-5 times smaller)
+-         Fuses are better at interrupting very high faults
+-         Circuit breakers can be reset, fuses must be replaced when they are blown
+-         In extreme fault conditions, fuses will not explode. Circuit breakers shouldn’t either, but the possibility exists.
+
+Image Credit: RealPars.com
+

@@ -1,0 +1,31 @@
+---
+title: "FCC Yields and Hydrotreated Feed"
+slug: "fcc-yields"
+module: "processes"
+submodule: "proc-conversion"
+type: "article"
+order: 520
+---
+
+In an oil refinery, a Fluid Catalytic Cracking Unit (FCC) converts heavy gas oils into high-value gasoline blending components.
+
+The feed to an FCC may or may not be hydrotreated. The FCC was designed with a specific type of feed. FCC feed can be divided between hydrotreated and non-hydrotreated.
+
+The term "hydrotreated" means the gas oil was processed in a Hydrotreating unit. In a hydrotreater, hydrogen is reacted with the feed under high-pressure and in the presence of a catalyst. The hydrotreating process removes sulfur, nitrogen, and metal contaminants such as nickel and vanadium.
+
+When feed to the FCC is hydrotreated, there are at least three major impacts:
+
+✅ Improved FCC product yields because of the addition of hydrogen.
+
+✅ Lower FCC catalyst consumption (operating costs) because of lower nickel and vanadium. Both nickel and vanadium poison (deactivate) catalyst.
+
+✅ Eliminates the need to install flue gas desulfurization (which requires a lot of capital). The hydrotreater lowers the feed sulfur before it gets to the FCC.
+
+About: I write about oil refinery operations and technology. My goal is to write in plain English and to provide an entry-point to the downstream oil industry.
+
+[__hashtag\#Refinery__](https://www.linkedin.com/search/results/all/?keywords=%23refinery&origin=HASH_TAG_FROM_FEED) [__hashtag\#OilAndGas__](https://www.linkedin.com/search/results/all/?keywords=%23oilandgas&origin=HASH_TAG_FROM_FEED) [__hashtag\#RefineryOperations__](https://www.linkedin.com/search/results/all/?keywords=%23refineryoperations&origin=HASH_TAG_FROM_FEED) [__hashtag\#ChemicalEngineering__](https://www.linkedin.com/search/results/all/?keywords=%23chemicalengineering&origin=HASH_TAG_FROM_FEED)
+
+Reference: "Handbook of Petroleum Refining Processes" Chapter 7.1
+
+Image: [__https://lnkd.in/gnQASX-T__](https://lnkd.in/gnQASX-T)
+

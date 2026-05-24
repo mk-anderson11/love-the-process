@@ -7,23 +7,21 @@ type: "article"
 order: 720
 ---
 
-Centrifugal Compressor dP
+To predict the differential pressure of a centrifugal compressor, you need two things: the polytropic feet of head and the vapor density. Differential pressure is their product. Each one is determined independently.
 
-How is the differential pressure of a compressor predicted? What information do you need?
+## Polytropic Head
 
-At minimum, you will need mechanical characteristics of the compressor such as the number of wheels, diameter of the wheels, and the rotor speed.
+Polytropic feet of head is calculated from the mechanical characteristics of the compressor: the number of wheels, the diameter of the wheels, and the rotor speed. These are fixed by the machine design. Polytropic head tells you how much energy the compressor adds to the gas, but it does not tell you the differential pressure on its own.
 
-However, this will allow for predicting the polytropic feet of head, which is not the same as the differential pressure.
+## The Role of Vapor Density
 
-To predict a differential pressure, you also need gas density.
+To get from polytropic head to differential pressure, you also need gas density. Vapor density and polytropic head are independent, changing the vapor density does not change the polytropic head, and the reverse is also true. This distinction matters when the gas composition or suction conditions change and you need to predict how the compressor will respond.
 
-Differential pressure is the product of polytropic feet of head and vapor density.
+<figure>
+  <img src="/images/compress-diff-pressure.jpeg" alt="Centrifugal compressor differential pressure diagram" />
+  <figcaption>Centrifugal compressor differential pressure: polytropic head and vapor density.</figcaption>
+</figure>
 
-✅ Vapor density and polytropic feet of head are not related.
-✅ Changing the vapor density does not change the polytropic feet of head.
-✅ The reverse is also true.
+## References
 
-Norman Liberman explains this concept in the excellent book, “A Working Guide to Process Equipment”.
-
-I made the image accompanying this post to provide a high-level explanation for compressor differential pressure.
-
+Norman Liberman, A Working Guide to Process Equipment

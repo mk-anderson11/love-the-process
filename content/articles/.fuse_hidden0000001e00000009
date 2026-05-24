@@ -1,0 +1,43 @@
+---
+title: "Cut Points: Gasoline, Jet Fuel, and Diesel"
+slug: "cut-points"
+module: "processes"
+submodule: "proc-fundamentals"
+type: "article"
+order: 310
+---
+
+The three major fuels produced by oil refineries are gasoline, jet fuel, and diesel.
+
+When crude oil enters a refinery, it is separated by distillation. This is a process that divides the crude oil into streams based on their boiling points.
+
+Lower boiling point (lighter) molecules are suitable for gasoline, while higher boiling point (heavier) molecules are used for diesel. Molecules with boiling points between gasoline and diesel are used for jet fuel.
+
+The boiling point temperature that separates two hydrocarbon streams is called a cut point.
+
+Some molecules could be used as multiple finished products (such as jet fuel or diesel).
+
+Refiners can adjust operation to shift these swing molecules based on market demands.
+
+This means that cut points are not exact. They are ranges.
+
+Here are some rough cut point estimates:
+✔️ Gas - Jet Fuel: 330 to 380 degF
+✔️ Jet Fuel - Diesel: 420 to 520 degF
+
+In refining, an "intermediate" is a hydrocarbon stream derived from crude oil that is not a finished product. "Naphtha" is an example.
+
+Naphtha is the name used by oil refiners to refer to the hydrocarbons that are precursors to gasoline.
+➡️ Typical boiling point range for naphtha is 90 to 380 degF.
+➡️ It's common to divide naphtha into light and heavy. The light/heavy naphtha cutpoint is around 180 to 220 degF.
+
+This post is a simplified explanation. It's meant as a starting point. Refining is a complex industry. Separation is not the only operation used to produce transportation fuels. Many processes have been developed to convert molecules through chemical reactions and thermal cracking.
+
+If you would like to learn more about the basics of refining, then I recommend this free presentation from Colorado School of Mines (John Jechura) on oil refinery distillation: [__https://lnkd.in/gJxRz5Ti__](https://lnkd.in/gJxRz5Ti)
+
+[__hashtag\#Refining__](https://www.linkedin.com/search/results/all/?keywords=%23refining&origin=HASH_TAG_FROM_FEED) [__hashtag\#ChemicalEngineering__](https://www.linkedin.com/search/results/all/?keywords=%23chemicalengineering&origin=HASH_TAG_FROM_FEED) [__hashtag\#OilAndGas__](https://www.linkedin.com/search/results/all/?keywords=%23oilandgas&origin=HASH_TAG_FROM_FEED) [__hashtag\#Energy__](https://www.linkedin.com/search/results/all/?keywords=%23energy&origin=HASH_TAG_FROM_FEED) [__hashtag\#RefineryOperations__](https://www.linkedin.com/search/results/all/?keywords=%23refineryoperations&origin=HASH_TAG_FROM_FEED)
+
+About: I write about oil refinery operations and technology. My goal is to write in plain English and to provide an entry-point to the downstream oil industry.
+
+Image Credit: John Jechura (Colorado School of Mines)
+

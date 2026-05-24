@@ -1,0 +1,39 @@
+---
+title: "Reforming and Isomerization: Upgrading Naphtha"
+slug: "upgrading-naphtha"
+module: "processes"
+submodule: "proc-auxiliary"
+type: "article"
+order: 620
+---
+
+Article:
+
+Reforming and Isomerization are two common methods for increasing naphtha octane rating. This concept is sometimes called “upgrading of light hydrocarbons”.
+
+The general principle for increasing octane requires rearranging straight chain hydrocarbons (often called n-paraffins) into branched and iso-paraffins. Both reforming and isomerization change molecular structure using energy and catalysts.
+
+----------------------------------
+
+REFORMING
+
+- Product is called “reformate”
+- Hydrogen is produced as a byproduct. The hydrogen is used for other refining processes, such as hydrotreating.
+- Octane increases through production of isoparaffins and aromatics. The formation of isoparrafins occurs through the chemical process of isomerization (which is confusing as the other refining process for increasing naphtha octane is called ‘Isomerization’).
+- Feed to Reforming Units must be hydrotreated as sulfur will poison the catalyst. This also means reformates have very low sulfur which is beneficial for gasoline blendstock.
+- UOP commercialized reforming and built the first reformer unit, called a “Platformer”, in 1949. [1]
+
+----------------------------------
+
+ISOMERIZATION
+
+- Product is called “isomerate”.
+- Feed is typically C5 and C6, which is lighter than reformer feed. Straight-chain pentane (n-pentane) has a Research Octane Number (RON) of about 60, while isopentane has a RON of 90.
+- “Penex” is the most common commercial technology for isomerization of C5 and C6 molecules. It was developed and is licensed by UOP. [2]
+Uses a platinum catalyst (not cheap).
+- Consumes hydrogen.
+- Saturates olefins if they are present. [2]
+- Feed must be hydrotreated to remove sulfur to avoid poisoning catalyst.
+
+WHY IT MATTERS: Straight-run naphtha does not have a high enough octane rating to be used effectively in gasoline blending. Upgrading naphtha provides a higher octane component, which is more valuable because of its use for gasoline blendstock.
+

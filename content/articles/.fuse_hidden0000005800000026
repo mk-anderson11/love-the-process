@@ -1,0 +1,19 @@
+---
+title: "Steam Tracing: Keeping Lines Hot"
+slug: "steam-tracing"
+module: "equipment"
+submodule: "equip-operations"
+type: "article"
+order: 1140
+---
+
+Article:
+
+What can you do to keep your process piping hot when insulation is not enough?
+
+Heating the lines with steam is the most common solution in refineries. Three methods for using steam to transfer heat to a process line are steam tracing, jacketed-pipe, and contra-trace. The general concept of keeping the line temperature elevated using steam is the same.
+
+The steam trap is an extremely important component of any steam system. I think of steam traps as dividing steam from condensate. Many different types of steam traps exist, but the purpose remains the same. The steam trap allows condensate to pass to the header, without allowing steam to blow-by.
+
+Lots of bad things happen when steam traps don't work. Condensate back-up is also really bad, and that might happen even with a functional steam trap.
+

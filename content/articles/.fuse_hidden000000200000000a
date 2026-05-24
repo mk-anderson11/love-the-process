@@ -1,0 +1,36 @@
+---
+title: "What Is Delayed Coking?"
+slug: "delayed-coking"
+module: "processes"
+submodule: "proc-conversion"
+type: "article"
+order: 540
+---
+
+Delayed coking units convert heavy hydrocarbons to light hydrocarbons. They also produce coke, which is more like a carbon-carbon than a hydrocarbon.
+
+In 2014, there were more than 70 delayed coking units in the U.S. with a combined capacity to process 2.7 million barrels per day. [1]
+
+The big-picture advantage of a refinery with a delayed coking unit is the ability to purchase heavier crudes (hopefully discounted) and convert them to transportation fuels.
+
+The name "delayed coking" is derived from how the conversion takes place. The feed temperature is increased rapidly in a charge heater, which initiates the reaction. However, the completion of the reaction is delayed to the coke drum.
+
+Coke produced at refineries is typically used as a fuel in two industries:
+1) Steam Generation (electricity)
+2) Cement Plants
+- For 1,000 tons of cement, approximately 75 to 115 tons of coke will be consumed as fuel. [1]
+
+Coke is commonly blended with coal. Compared to coal, coke has two advantages:
+1) Higher heating value (~14,000 BTU/LB) than coal (9,000 - 12,500 BTU/LB)
+2) Lower ash content (0.5 wt%) than coal (10-20%, varies widely)
+- Lower ash content reduces ash disposal costs. [2]
+
+One fascinating (at least to me) integration of delayed coking and power production is the Amec Foster Wheeler "PetroPower" in Biobio, Chile (image). The facility includes a delayed coking unit (~12,000 BPD) and a cogeneration unit (~59 MW net). The coke is fed to the Cogen's CFB (circulating fluid bed) boiler. The Cogen produces steam and electricity. The unit was started up in 1998 and was acquired by ENAP in 2016. [1,3]
+
+Works Cited
+[1] "Handbook of Petroleum Refining Processes" 4th Ed. Meyers, Chpt. 11.2
+[2] [__https://lnkd.in/gUgAgDi8__](https://lnkd.in/gUgAgDi8)
+[3] [__https://lnkd.in/gGUDQACr__](https://lnkd.in/gGUDQACr)
+
+IMAGE: PetroPower Delayed Coking Unit and Cogen, Biobio, Chile [3]
+

@@ -1,0 +1,31 @@
+---
+title: "How Ammonium Salts Form in Refineries"
+slug: "ammonium-salts"
+module: "equipment"
+submodule: "equip-inspection"
+type: "article"
+order: 1040
+---
+
+Article:
+
+Ammonium salt formation in refineries causes two problems:
+1) Corrosion
+2) Fouling
+
+The two most common ammonium salts are:
+1) Ammonium Bisulfide
+2) Ammonium Chloride
+
+For my day-to-day responsibilities, which include sour water stripping and amine regeneration, ammonium bisulfide is a bigger concern than ammonium chloride.
+
+Salts are formed from a reaction of an acid and a base (alkali). The reaction to form ammonium bisulfide uses ammonia (NH3) as the base and hydrogen sulfide (H2S) as the acid. This reaction takes place with both NH3 and H2S in the vapor phase. The product ammonium chloride is a water-soluble solid.
+
+The rate of ammonium bisulfide formation is a function of:
+1) Partial pressures of NH3 and H2S
+2) Temperature (low temp = more salt formation)
+
+You would think the prefix "bi" is for two of something. However, "bi" in chemistry means 'one hydrogen atom'. (I definitely did not remember this despite taking two semesters of O-Chem)
+
+I put together this table of sulfur anions with the ammonium cation to show the formation of various salts. The one that is particularly problematic for refineries is highlighted.
+

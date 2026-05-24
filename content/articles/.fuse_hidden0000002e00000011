@@ -1,0 +1,42 @@
+---
+title: "Hydrogen Content: Gasoline vs. Middle Distillates"
+slug: "hydrogen-content"
+module: "chemistry"
+submodule: "chem-products"
+type: "article"
+order: 210
+---
+
+Hydrogen content is an important parameter for understanding gasoline, jet fuel, and diesel.
+
+The image attached to this post is of a "Stangeland Diagram". It relates the hydrogen weight % of molecules to molecular weight. The diagram can be used to check acceptable hydrogen percentages for different fuels.
+
+Jet fuel and diesel (known as "middle distillates") have a much narrower range of acceptable hydrogen contents. Hydrogen deficient distillates are unable to meet finished product specs for jet fuel and diesel.
+
+Gasoline, jet fuel, and diesel, each have different combustion specs:
+ ✅ Gasoline: Octane
+ ✅ Jet Fuel: Smoke Point
+ ✅ Diesel: Cetane
+
+Heavy aromatic compounds prevent diesel and jet fuel from meeting their cetane and smoke point specs. The aromatic compounds must be removed (saturated with hydrogen, and then possibly cracked) to meet specs. This is why the Stangeland diagram shows the jet fuel and diesel regions as bordering the paraffin (top) line, which is the maximum possible hydrogen weight %.
+
+For gasoline, the range of acceptable hydrogen % is much larger. To highlight this, I added red lines to outline the gasoline area on the Stangeland diagram.
+
+The gasoline burning spec of octane can be obtained with hydrogen-deficient molecules. Aromatics, which are hydrogen-deficient, have high octane values.
+
+A reasonable question from this discussion is "How do you add hydrogen and remove aromatics"?
+
+Hydrocracking and Hydrotreating are how.
+
+Both processes add hydrogen and saturate aromatics. Hydrocracking also breaks bonds (crack molecules) and isomerizes (makes branched molecules).
+
+[__hashtag\#Refining__](https://www.linkedin.com/search/results/all/?keywords=%23refining&origin=HASH_TAG_FROM_FEED)
+[__hashtag\#ChemicalEngineering__](https://www.linkedin.com/search/results/all/?keywords=%23chemicalengineering&origin=HASH_TAG_FROM_FEED)
+[__hashtag\#OilAndGas__](https://www.linkedin.com/search/results/all/?keywords=%23oilandgas&origin=HASH_TAG_FROM_FEED)
+[__hashtag\#Energy__](https://www.linkedin.com/search/results/all/?keywords=%23energy&origin=HASH_TAG_FROM_FEED)
+[__hashtag\#RefineryOperations__](https://www.linkedin.com/search/results/all/?keywords=%23refineryoperations&origin=HASH_TAG_FROM_FEED)
+
+About: I write about oil refinery operations and technology. My goal is to write in plain English and to provide an entry-point to the downstream oil industry.
+
+Image Credit and Reference: "Handbook of Petroleum Refining Processes" Chapter 6.1
+

@@ -1,0 +1,29 @@
+---
+title: "From Methane to Hydrogen: SMR Explained"
+slug: "steam-methane-reforming"
+module: "processes"
+submodule: "proc-hydrogen"
+type: "article"
+order: 430
+---
+
+Steam-methane reforming accounts for ~90% of global hydrogen-syngas\* generation. [1]
+
+Hydrogen will likely have an increasing role in supplying the world's insatiable need for energy.
+
+Before diving into the multitude of different hydrogen types (denoted by colors such as grey, blue, turquoise, gold, green...etc), it's helpful to understand how most hydrogen is being produced today.
+
+The initial reaction occurs between water and methane in the presence of a nickel catalyst (and lots of heat) to make hydrogen and carbon monoxide.
+
+The second step (water-gas shift) reacts carbon monoxide with water to make carbon dioxide and hydrogen.
+
+One of the benefits of steam reforming is the feed flexibility. Heavier hydrocarbons than methane, such as LPG and naphtha, can be used as feed for steam reforming for hydrogen production.
+
+\*syngas = synthesis gas, mixture of hydrogen and carbon monoxide produced by steam reforming. [2]
+
+About: I write to teach basics of oil refinery operations and technology. My goal is to write in plain English and to provide an entry-point to the downstream oil industry.
+
+[1] "Handbook of Petroleum Refining Processes", 4th Ed. Meyers, Chpt 5.2
+
+[2] [__https://lnkd.in/gUUp4u3w__](https://lnkd.in/gUUp4u3w)
+

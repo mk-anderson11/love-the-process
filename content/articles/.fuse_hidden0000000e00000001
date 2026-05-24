@@ -1,0 +1,25 @@
+---
+title: "How Refineries Remove H2S from Fuel Gas"
+slug: "amine-regen"
+module: "processes"
+submodule: "proc-hydrogen"
+type: "article"
+order: 410
+---
+
+Article:
+
+In the process of converting crude oil to liquid transportation fuels, a wide variety of gases are produced in a refinery. These are referred to as “fuel gas”. Prior to combusting the fuel gas in refinery process heaters or boilers, H2S (hydrogen disulfide) must be removed. The most common method for removing H2S is to contact the fuel gas with amine.
+
+When the amine is low in sulfur (low H2S loading), it is called “lean amine”. Likewise, “rich amine” has high H2S loading. Amine regeneration is how rich amine is converted to lean amine so it can be circulated to remove more H2S from fuel gas.
+
+Amine regeneration is simple. The amine is heated inside of a trayed vessel. The heat causes sulfur-amine bonds to break, which generates H2S. The H2S exits the top of the vessel and the regenerated lean amine exits the bottom.
+
+Lean amine is routinely sampled and the residual H2S is monitored. One might assume the goal of regeneration is lean amine with zero H2S. This is not the case. Targeting zero H2S would require an impractical amount of heat. Also, hot lean amine with zero H2S is a corrosion concern. However, too much H2S in the lean amine would result in poor performance of the amine absorbers when fuel gas is contacted to remove H2S.
+
+Therefore, to minimize corrosion and maintain H2S removal, lean amine H2S loading targets are established. Operations can target the lean amine H2S loading by increasing or decreasing heat applied by the regenerator. This is done by modifying the steam flow to the reboiler.
+
+One control method for amine regenerators is a steam-to-feed ratio. The units are lbs of steam per bbl of amine feed. It is typical to have a steam-to-feed range that is known to result in the desired lean amine H2S loading. The console operator adjusts the steam-to-feed ratio within the established range based on samples. Deviating from the accepted steam-to-feed ratio normally requires additional levels of approval.
+
+The benefit of a steam-to-feed ratio is the ability to adjust with variable flow. Amine flow rates can change quickly. The steam-to-feed control scheme automatically increases or decreases flow based on the change of feed rate to the regenerator.
+

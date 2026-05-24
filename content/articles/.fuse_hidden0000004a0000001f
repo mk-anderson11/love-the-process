@@ -1,0 +1,46 @@
+---
+title: "Who Does What in a Refinery"
+slug: "refinery-work-process"
+module: "equipment"
+submodule: "equip-operations"
+type: "article"
+order: 1110
+---
+
+Article:
+
+As a new refinery employee or intern, a basic understanding of the different personnel and their responsibilities can help smooth the transition.
+
+Let's learn by example:
+
+SCENARIO: An LPG pump has a seal leak.
+(The seal is what keeps the process fluid contained within the pump)
+
+STEP 1 - The unit operator identifies the seal leak during their daily round. They start up the alternate pump and isolate the pump with a seal leak. They write a work request for the pump seal to be repaired.
+
+STEP 2 - Maintenance planners receive the work request and walk out the job. They create a job plan and maintenance schedulers work with Ops management to select a day to pull the pump.
+
+STEP 3 - A unit operator clears the pump case of LPG and verifies that the isolation valves hold. They lock out the pump. If the motor is high voltage, then Electricians (part of maintenance) will be needed to lock out the power supply.
+
+STEP 4 - Mechanics (part of maintenance) arrive on the day of the job to pull the pump and take it to the shop because this seal leak cannot be repaired in the field. The mechanics complete a job walk and permit process with the unit operator.
+
+STEP 5 - With the pump in the shop, the ROTO (rotating equipment) engineer assigned to the complex completes an inspection because this is the second time in one year that this pump has had a seal failure. The ROTO engineer may consult with the manufacturer or another SME (Subject Matter Expert) about the repair plan and any potential modifications.
+
+BONUS STEP: The alternate pump is found to have smaller impeller ID (fun surprise).
+
+The smaller impeller diameter has resulted in a lower flow rate. The process engineer reviews the system and recommends line up changes to re-route LPG without needing to cut back crude rate.
+
+Operations management reviews the recommendations, selects a path forward, and the unit operators implement the line-up changes. For the sake of the scenario, we'll say the process engineer had a good idea for once and it all worked out!!
+
+For this simplified scenario, 8 different groups/employees were discussed:
+1) Unit Operator
+2) Maintenance Planners
+3) Maintenance Schedulers
+4) Electricians
+5) Pump Mechanics
+6) Rotating Equipment Engineer
+7) Operations Management (Superintendent/Complex Manager)
+8) Process Engineer
+
+Hopefully this provides some context of the many types of refinery personnel that are involved in repairs and running the plant reliability.
+

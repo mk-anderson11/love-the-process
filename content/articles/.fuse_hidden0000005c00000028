@@ -1,0 +1,37 @@
+---
+title: "Stratification and Mixing in Refinery Tanks"
+slug: "tank-mixing"
+module: "equipment"
+submodule: "equip-operations"
+type: "article"
+order: 1150
+---
+
+# Tank Mixing in Oil Refineries: Agitators, Jet Mixers, and Why Stratification Is a Problem
+
+## Homogenous vs. Stratified
+
+When the liquid in a refinery tank has the same properties at all depths, the tank is said to be homogenous. When properties — such as sulfur content, density, or viscosity — vary by depth, the tank is stratified. A homogenous tank is strongly preferred. Pumping stratified product to a blending header or a customer risks delivering off-spec material, since the properties at the pump suction may not represent the tank as a whole.
+
+Stratification happens when streams of different densities or temperatures enter a tank at different times, or when heavier components settle over time. The solution is mixing — and refineries use two main approaches to achieve it.
+
+## Mechanical Mixers (Agitators)
+
+Mechanical mixers — commonly called agitators — use a rotating device mounted inside the tank to mix the liquid. The motor sits outside the tank, typically coupled to a gearbox that drives the mixing element. Key characteristics:
+
+- Rotating device located inside the tank
+- Motor and gearbox mounted externally
+- Effective for high-viscosity fluids that jet mixing struggles to move
+
+## Jet Mixers
+
+Jet mixers have no moving parts inside the tank. Instead, they use liquid velocity and specialized nozzles to induce circulation and mixing. A pump draws liquid from the tank, pressurizes it, and returns it through the nozzles at high velocity. Key characteristics:
+
+- No moving parts inside the tank
+- Pumps designed for high flow and low differential pressure
+- Some designs use eduction nozzles that draw in additional surrounding liquid, amplifying the mixing effect beyond the jet flow alone (see diagram)
+
+## Which One Is Used?
+
+Both types are common in refineries. The choice depends on tank size, fluid viscosity, and cost. Jet mixers are often favored for large tanks with low-viscosity products because they are mechanically simple and easy to maintain. Mechanical agitators are more effective for heavier, more viscous fluids where jet velocity alone is insufficient to achieve uniform mixing.
+

@@ -1,0 +1,27 @@
+---
+title: "Gate Valves: Stem Nuts and Lubrication"
+slug: "gate-valve"
+module: "equipment"
+submodule: "equip-valves"
+type: "article"
+order: 920
+---
+
+Article:
+
+19 gate valve components are labeled in the diagram.
+
+Two of the components I want to highlight are:
+1) Stem Nut
+2) Lubricator
+
+The stem nut is a threaded component that is mated to the stem (which is also threaded). What’s cool about the stem nut is that it converts the rotational energy of the hand wheel into linear energy of the rising and falling gate.
+
+As you can imagine, if the stem nut cannot turn, then the gate will not be able to rise or fall.
+
+This is why the lubricator is so important. By injecting grease into the stem nut via the lubricator, the stem nut will be easier to move for longer. Also, the grease can displace any water or contaminants that have contacted the stem nut.
+
+Cleaning and lubricating the stem itself is also helpful because as the stem moves linearly, it will contact the stem nut. Contaminants on the stem are easily transferred to the stem nut.
+
+Here is a really excellent article about stem nut failure for MOV’s (Motor Operated Valves). I based this post on some of the info in this article: https://valve-world.net/mitigating-mov-stem-nut-failure-through-proper-maintenance-and-wear-measurement/
+

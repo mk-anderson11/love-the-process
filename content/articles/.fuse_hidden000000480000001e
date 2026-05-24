@@ -1,0 +1,29 @@
+---
+title: "The Anatomy of a Refinery Process Unit"
+slug: "refinery-process-units"
+module: "processes"
+submodule: "proc-fundamentals"
+type: "article"
+order: 330
+---
+
+Article:
+
+If a refinery is compared to the human body, then process units are the organs. They each have a purpose. They have inputs and outputs and most have chemical reactions.
+
+In a refinery, a process unit is a group of equipment such as pumps, vessels, and heat exchangers that are interconnected and have a common purpose. The purpose is typically to re-arrange molecules, separate them, or both.
+
+The diagram below is called a “block flow diagram” or BFD. It is used extensively in the chemical process industries to provide a high-level overview.
+
+I made this BFD to show a generic process unit in a refinery. It is very typical to have three sections:
+1) Feed Treatment (also called feed preparation)
+2) Reaction
+3) Separation
+
+- Inputs: The materials entering the unit. This includes fuels such as natural gas.
+- Feed Treatment: Some process units require impurities to be removed from feed to protect reactor catalyst or prevent corrosion.
+- Reaction: Molecules are rearranged. There is a desired product, and there could be undesired products. Engineers design and then monitor the process to maximize the desired product.
+- Reactor Effluent: Sometimes called just “effluent”. This is the process stream immediately after it leaves the reactor (prior to separation).
+- Separation: The desired product needs to be purified, which means it must be separated from the other streams that make up the reactor effluent.
+- Products: Separated reactor effluent streams. Process units have targets for product purity and acceptable amounts of contaminants in each product.
+

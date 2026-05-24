@@ -1,0 +1,33 @@
+---
+title: "Solenoid Valves in Oil Refineries"
+slug: "solenoids"
+module: "equipment"
+submodule: "equip-electrical"
+type: "article"
+order: 840
+---
+
+Article:
+
+Most refineries contain thousands of solenoid valves. The majority of applications are for ON/OFF (two-position) compared to other types of control valves that are able to provide a continuous range from 0% to 100% open.
+
+🧲 In Physics, a solenoid is a coil of wire that produces a magnetic field when current is passed through it.
+
+The typical engineering definition of a solenoid takes the same coil of wire, but adds a magnetic rod positioned inside of the coil.
+
+When current is passed through the wire, the rod is pulled into the coil. When the current is stopped, the rod returns to the starting position.
+
+The movement of the rod is how solenoids convert electrical energy to linear energy.
+
+Solenoid valves use this energy conversion to open and close.
+
+GO DEEPER
+
+✏️ Alternate names for the magnetic rod are “plunger” and “armature”.
+
+✏️ Some benefits of solenoid valves are very quick reaction times, high-reliability, and long service life.
+
+✏️ A non-valve solenoid application found in refineries is the solenoid switch that is used in electrical relays. This isolates the operator from high-power circuits. (I wrote a previous LinkedIn post about switches and relays that I’ll link to in the comments)
+
+Images from Wikipedia “Solenoids” article.
+

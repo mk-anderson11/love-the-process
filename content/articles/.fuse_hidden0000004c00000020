@@ -1,0 +1,36 @@
+---
+title: "How Reforming Raises Naphtha Octane"
+slug: "reforming"
+module: "processes"
+submodule: "proc-auxiliary"
+type: "article"
+order: 610
+---
+
+Article:
+
+Reforming is a process used to convert full range naphtha (C6 to C11) into high-octane blend component for gasoline, called Reformate.
+
+Other products of Reforming are:
+- Hydrogen
+- Fuel Gas (mostly C1 and C2)
+- LPG (mostly C3 and C4)
+
+Some refineries rely on their Reformers as their primary source of hydrogen for other processes such as hydroprocessing and isomerization.
+
+Fuel gas and LPG are much lower value than the C5\+ reformate. Therefore, it is preferred to maximize reformate yield.
+
+Operators adjust the "severity" of the Reformer to target octane (RON, Research Octane Number) based on blending needs.
+
+The tradeoff is that as severity is increased, the liquid volume yield of reformate decreases. (see image below)
+
+The liquid volume yield decreases for two main reasons:
+1) Increased production of fuel gas and LPG.
+2) The density of high octane reformate is higher because of the increased aromatics.
+
+The predominant reformer technology is CCR Platformer (Continuous Catalyst Recirculation) licensed by UOP.
+
+As of 2015, there were more than 250 CCR platforming units in operation worldwide with an average unit capacity of ~23,000 BPD. [1]
+
+[1] Meyers, "Handbook of Petroleum Refining Processes" 4th Ed.
+

@@ -1,0 +1,32 @@
+---
+title: "Motor Troubleshooting for Refinery Operators: Where to Start When the Pump Won't Run"
+slug: "video-motor-troubleshooting"
+module: "equipment"
+submodule: "equip-rotating"
+type: "video"
+youtube: "jC7lTUmtYlU"
+order: 730
+---
+
+# Motor Troubleshooting for Refinery Operators: Where to Start When the Pump Won't Run
+
+When a pump goes down, the first question is always: is it the pump or the motor? This article assumes you've narrowed it to the motor and want a starting point for further troubleshooting — no electrical engineering background required.
+
+## Step 1: Open the Junction Box
+
+The junction box — also called the motor determination box, or informally the "Peckerhead" — is the connection point between the power source and the motor. Inside, you'll find the feed wires from your power supply and the lead wires connecting to the motor's three phases. Opening this box is your starting point for electrical troubleshooting.
+
+## Step 2: Perform a Mega Test
+
+With the junction box open, you can perform a megohmmeter test — commonly called a mega test. This measures the electrical resistance between each pair of motor phases. If resistance is low between two phases, you have an overcurrent fault, most commonly caused by damaged winding insulation.
+
+## Understanding Motor Windings and Insulation
+
+Inside an electric motor are three sets of windings — one per phase — that must remain electrically separated from each other. The insulation is a varnish coating applied through a process called "dip and bake": the windings are submerged in varnish and then heated to cure it. If that insulation degrades or is damaged, the phases can contact each other and cause an overcurrent fault. What looks like a disorganized bundle of wire is actually a carefully separated three-phase system.
+
+## Where This Fits in the Refinery
+
+Most motors in a refinery are three-phase AC motors — the most common industrial type. Operations personnel don't need to be electricians, but understanding the junction box, the mega test, and what an overcurrent fault means gives you a much better starting point when working alongside your electrical team to diagnose a downed pump.
+
+__About: __I write about oil refinery operations and technology. My goal is to write in plain English and provide an entry point to the downstream oil industry.
+

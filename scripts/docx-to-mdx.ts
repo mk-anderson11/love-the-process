@@ -462,17 +462,25 @@ function slugify(input: string): string {
     .replace(/^-+|-+$/g, "");
 }
 
+const CLOSING_LINE =
+  "I write about oil refinery operations and technology. My goal is to write in plain English and provide an entry point to the downstream oil industry.";
+
 /**
  * Clean up the markdown mammoth emits from docx:
  * - strip backslash escapes from punctuation that doesn't need escaping in MDX
  * - drop a leading "Title: ..." line (the docx-internal title, we use our own)
+ * - drop a leading "Article:" label (template artifact in some docx files)
  * - collapse stray multi-blank-line gaps
+ * - ensure the standard closing line is present
  */
 function cleanMarkdown(md: string): string {
   let out = md;
 
   // Drop leading "Title: ..." line (case-insensitive), optionally preceded by blanks
   out = out.replace(/^\s*title\s*:\s*[^\n]*\n+/i, "");
+
+  // Drop leading "Article:" label (template artifact), optionally preceded by blanks
+  out = out.replace(/^\s*article\s*:\s*\n+/i, "");
 
   // Unescape common mammoth escapes: \. \- \! \? \( \) \[ \] \/ \, \; \: \' \"
   out = out.replace(/\\([.\-!?()[\]/,;:'"])/g, "$1");
@@ -486,7 +494,14 @@ function cleanMarkdown(md: string): string {
   // Collapse 3+ blank lines to a single blank line
   out = out.replace(/\n{3,}/g, "\n\n");
 
-  return out.trim();
+  out = out.trim();
+
+  // Append standard closing line if absent
+  if (!out.includes(CLOSING_LINE)) {
+    out += `\n\n*${CLOSING_LINE}*`;
+  }
+
+  return out;
 }
 
 function frontmatter(fm: Record<string, string | number>): string {
@@ -553,6 +568,7 @@ async function main() {
 
   const unmapped: string[] = [];
   let written = 0;
+  let skipped = 0;
 
   for (const folder of folders) {
     const meta = ARTICLE_META[folder];
@@ -567,6 +583,20 @@ async function main() {
     if (!docx) continue;
 
     const slug = slugify(folder);
+
+    // Skip articles that already have a hand-edited MDX file.
+    // Use --force to regenerate all articles from docx (e.g. after bulk docx changes).
+    const dst = path.join(CONTENT_DST, `${slug}.mdx`);
+    const force = process.argv.includes("--force");
+    if (!force) {
+      try {
+        await fs.access(dst);
+        skipped += 1;
+        continue; // file exists — don't overwrite
+      } catch {
+        // file doesn't exist — proceed to generate
+      }
+    }
 
     const { value: markdown } = await mammoth.convertToMarkdown({
       path: path.join(folderPath, docx),
@@ -590,7 +620,7 @@ async function main() {
     written += 1;
   }
 
-  console.log(`Wrote ${written} MDX file(s) to ${CONTENT_DST}`);
+  console.log(`Wrote ${written} MDX file(s) to ${CONTENT_DST}${skipped ? ` (skipped ${skipped} existing — use --force to regenerate)` : ""}`);
   if (unmapped.length) {
     console.log(
       `\nNo metadata for these folders. Add them to ARTICLE_META in scripts/docx-to-mdx.ts:`,
