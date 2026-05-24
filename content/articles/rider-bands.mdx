@@ -7,6 +7,8 @@ type: "article"
 order: 750
 ---
 
+Article:
+
 Refineries operate continuously.
 
 That simple, 3-word sentence, has a lot of implications for refinery maintenance.
@@ -15,7 +17,7 @@ Mechanical equipment, such as pumps and compressors, cannot operate continuously
 
 Refinery start-ups and shutdowns can take multiple days, thus avoiding several small outages is beneficial.
 
-For further optimization, the duration of these maintenance activities should be minimized. This is a basic explanation of why "Turnarounds" exist.
+For further optimization, the duration of these maintenance activities should be minimized. This is a basic explanation of why “Turnarounds” exist.
 
 In a Turnaround, a refinery, or a section of a refinery, is shutdown to perform maintenance and inspections that cannot be completed during normal operations.
 
@@ -23,37 +25,27 @@ To help plan for Turnarounds, equipment maintenance plans are scheduled years in
 
 Moreover, remaining years of life of run-time are estimated for large equipment such as compressors.
 
-One component of reciprocating compressors that can be a point-of-failure are "Rider Bands".
-
-## What Rider Bands Do
+One component of reciprocating compressors that can be a point-of-failure are “Rider Bands”.
 
 The purpose of rider bands is to prevent metal-to-metal contact of the piston against the cylinder wall.
 
 Rider bands are designed as a consumable component, which means they wear down over time and eventually will need to be replaced.
 
-<figure>
-  <img src="/images/rider-bands.jpeg" alt="Rider band diagram" />
-  <figcaption>Rider bands. Preventing metal-to-metal contact in reciprocating compressors.</figcaption>
-</figure>
+Here is some more information on rider bands:
 
-## Materials and Piston Rings
+=> Rider Band material: PEEK, PTFE (plastics or composites)
+ - Historically, were made from soft metals such as babbitt.
+=> Often discussed with piston rings.
+ - Piston rings provide seal between piston and the bore.
+ - Rider bands are designed to carry the full weight of the piston.
+=> Wear rate can be very low, especially if in lubricated cylinder application
+=> Wear rate can be higher with improper lubrication, moisture in the process gas, or excessive particulates in the process gas.
+=> Online monitoring of rider band wear is possible, but I’m not sure how extensively it is used:
+ - Rod Drop
+ - Newer methodology: Rod Position Pair (Bently Nevada)
+ - Source \#1 is an excellent article including an interesting case study from 2021 ([__Fayyaz Qureshi__](https://www.linkedin.com/in/fayyaz-qureshi-1409a519/))
 
-Rider band material is typically PEEK or PTFE (plastics or composites). Historically, they were made from soft metals such as babbitt.
-
-Rider bands are often discussed with piston rings. Piston rings provide a seal between the piston and the bore, while rider bands are designed to carry the full weight of the piston.
-
-## Wear Rate
-
-Wear rate can be very low, especially in a lubricated cylinder application. Wear rate can be higher with improper lubrication, moisture in the process gas, or excessive particulates in the process gas.
-
-## Monitoring
-
-Online monitoring of rider band wear is possible, but how extensively it is used is unclear. Two methods are Rod Drop and the newer Rod Position Pair methodology (Bently Nevada).
-
-## Works Cited
-
-[1] [Baker Hughes Bently Nevada - Reciprocating Compressor Condition Monitoring](https://www.bakerhughes.com/bently-nevada/orbit-home/orbit-article/reciprocating-compressor-condition-monitoring)
-
-[2] [Cook Compression - Piston Rings and Riders](https://www.cookcompression.com/en/products/piston-rings-and-riders.html)
-
-[3] [Stasskol - Piston Rings and Rider Bands](https://www.stasskol.de/en/compressor-seals/piston-rings-and-rider-bands/)
+If you want to learn more about rider bands, I recommend these three sources:
+[1] https://www.bakerhughes.com/bently-nevada/orbit-home/orbit-article/reciprocating-compressor-condition-monitoring (Really great case study on rod position pair, but also includes general information about rider bands. The image included in this post is from this source)
+[2] https://www.cookcompression.com/en/products/piston-rings-and-riders.html (Cook Compression)
+[3] https://www.stasskol.de/en/compressor-seals/piston-rings-and-rider-bands/ (Stasskol piston rings and rider bands)

@@ -229,6 +229,13 @@ const ARTICLE_META: Record<
     type: "article",
     order: 540,
   },
+  Hydrocracking: {
+    title: "Hydrocracking: Converting Heavy Oil into Diesel and Jet Fuel",
+    module: "processes",
+    submodule: "proc-conversion",
+    type: "article",
+    order: 550,
+  },
 
   // 2.4 Auxiliary Operations
   Reforming: {

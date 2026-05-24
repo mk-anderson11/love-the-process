@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "port-content": "tsx scripts/docx-to-mdx.ts"
+    "port-content": "npx tsx scripts/docx-to-mdx.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.5.2",
